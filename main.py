@@ -2,6 +2,9 @@ from sense_hat import SenseHat
 import time
 import sensible_colours
 from ghost_blinky import blinky_frames
+from ghost_clyde import clyde_frames
+from ghost_inky import inky_frames
+from ghost_pinky import pinky_frames
 
 
 def fill_pixels(the_sense_hat, the_animation):
@@ -25,6 +28,12 @@ if __name__ == '__main__':
     frames = []
 
     for frame in blinky_frames:
+        frames.append(frame)
+    for frame in clyde_frames:
+        frames.append(frame)
+    for frame in inky_frames:
+        frames.append(frame)
+    for frame in pinky_frames:
         frames.append(frame)
 
     fill_pixels(sense, frames)
