@@ -7,7 +7,7 @@
 
 from sensible_colours import *
 
-blinky_frames = [
+pinky_frames = [
     [
         k, k, i, i, i, id, k, k,
         k, i, i, i, i, i, id, k,

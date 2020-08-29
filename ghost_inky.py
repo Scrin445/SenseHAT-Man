@@ -7,7 +7,7 @@
 
 from sensible_colours import *
 
-blinky_frames = [
+inky_frames = [
     [
         k, k, c, c, c, cd, k, k,
         k, c, c, c, c, c, cd, k,
